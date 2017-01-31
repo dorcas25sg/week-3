@@ -39,12 +39,12 @@ Instructions: Write a function that takes a boolean value and returns its opposi
 ===================== */
 
 var not = function(h) {
-  if (h=true) {
+  if (h===true) {
     return false;
   }
   else {
     return true;
-  };
+  }
 };
 
 console.log('not success:', not(true) === false);

@@ -93,4 +93,4 @@ _.each(theArray, function (value, k, list) {
   }
 });
 
-console.log("Success: ", yourSum === 169)
+console.log("Success: ", yourSum === 169);
